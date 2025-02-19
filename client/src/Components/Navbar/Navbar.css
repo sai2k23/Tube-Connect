@@ -1,0 +1,113 @@
+/* Navbar Styling */
+.Container_Navbar {
+  border: 1px solid #000000;
+  display: flex;
+  height: 3.5rem;
+  background-color: #000000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.Burger_Logo_Navbar {
+  display: flex;
+  align-items: center;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.burger p {
+  margin: 2px 0;
+  width: 20px;
+  height: 3px;
+  background-color: #FFD700;
+}
+
+.logo_div_Navbar {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.logo_title_navbar {
+  margin-left: 10px;
+  color: #FFD700;
+  font-weight: bold;
+}
+
+.Auth_cont_Navbar {
+  display: flex;
+  align-items: center;
+}
+
+.Auth_Btn {
+  cursor: pointer;
+  color: #DAA520;
+  background-color: #000000;
+  border: 2px solid #DAA520;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  transition: background 0.3s ease;
+}
+
+.Auth_Btn:hover {
+  background-color: #000000;;
+}
+
+.notification-icon-container {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 0.7rem;
+}
+
+.notification-badge {
+  background: #6C757D;
+  color: white;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.notification-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  background: #008CFF;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 1000;
+  color: #FFD700;
+}
+
+.notification-item {
+  padding: 10px;
+  border-bottom: 1px solid #FFD700;
+  transition: background 0.3s ease-in-out;
+}
+
+.notification-item:hover {
+  background: #008CFF;
+}
+
+.view-all-notifications {
+  display: block;
+  text-align: center;
+  padding: 8px;
+  color: #008CFF;
+  font-weight: bold;
+}

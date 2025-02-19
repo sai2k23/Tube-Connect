@@ -1,0 +1,58 @@
+.container3_chanel {
+    border-bottom: 3px solid #FFD700;
+    padding: 0.5rem;
+    color: whitesmoke;
+    position: relative;
+}
+
+.chanel_logo_chanel {
+    border: 10px solid #000000;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #FFD700;
+}
+
+.chanel_logo_chanel b {
+    margin: auto;
+    font-size: 3rem;
+}
+
+.description_chanel {
+    text-align: center;
+    color: #FFD700;
+}
+
+.description_chanel b {
+    font-size: 4rem;
+}
+
+.description_chanel p {
+    font-size: large;
+}
+
+.uploadbtn_chanel,
+.editbtn_chanel {
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    background-color: #000000;
+    padding: 0.5rem;
+    border: 2px solid #FFD700;
+    border-radius: 0.5rem;
+    color: #FFD700;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.uploadbtn_chanel {
+    top: 4rem;
+}
+
+.uploadbtn_chanel:hover,
+.editbtn_chanel:hover {
+    border: 2px solid;
+    color: rgb(231, 140, 14);
+}

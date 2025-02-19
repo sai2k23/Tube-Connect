@@ -1,0 +1,57 @@
+/* App Styling */
+.Chanel_logo_App {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin: auto;
+  border-radius: 100%;
+  background-color: #000000;
+  display: flex;
+  border: 2px solid #FFD700; /* Royal Gold */
+}
+
+.fstChar_logo_App {
+  margin: auto;
+  color: #FFD700;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.container_Pages_App {
+  display: flex;
+  background-color:  #000000;
+}
+
+.container2_Pages_App {
+  width: calc(100vw - 5rem);
+  height: calc(100vh - 3.65rem);
+  border-top: 2px solid  black;
+  overflow-y: auto;
+  background-color: #111111; /* Dark Black */
+}
+
+.video_box_app {
+  width: 21rem;
+  height: 17rem;
+  margin-bottom: 1rem;
+  border: 2px solid #FFD700; /* Royal Gold */
+  background-color: #222222; /* Slightly lighter Black */
+  color: #FFD700; /* Royal Gold */
+  box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.video_box_app:hover {
+  transform: scale(1.05);
+  background-color: #333333;
+}
+video {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  background-color: #FFD700;
+  margin: auto 0.5rem;
+}

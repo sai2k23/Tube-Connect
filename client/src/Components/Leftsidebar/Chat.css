@@ -1,0 +1,96 @@
+.chat-container {
+  margin-left: 260px;
+  padding: 20px;
+  background-color: #000000;
+  color: #FFD700;
+  min-height: 100vh;
+  width: calc(100vw - 260px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat-header {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.chat-quote {
+  font-size: 18px;
+  font-style: italic;
+  color: #B8860B;
+  margin-bottom: 20px;
+}
+
+.floating-action {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: #DAA520;
+  color: #000000;
+  padding: 12px 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.floating-action:hover {
+  background-color: #FFD700;
+  transform: scale(1.1);
+}
+
+.share-form {
+  background: #1C1C1C;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  font-weight: bold;
+  display: block;
+}
+
+.share-video-btn {
+  width: 100%;
+  padding: 12px;
+  font-weight: bold;
+  background: #DAA520;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.share-video-btn:hover {
+  background: #FFD700;
+  transform: scale(1.05);
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.video-card {
+  background: #1C1C1C;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.video-player {
+  width: 100%;
+  border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+/* Video Grid Styling */
+.Container_ShowVideoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.video_box_app {
+    background: #000000;
+    border: 1px solid #FFD700;
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.video_box_app:hover {
+    transform: scale(1.05);
+    background-color: #FFD700;
+}

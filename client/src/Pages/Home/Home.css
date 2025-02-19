@@ -1,0 +1,22 @@
+/* Home Navigation */
+.navigation_Home {
+    display: none;
+}
+.banner_Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; /* Occupy full viewport width */
+    height: 40vh; /* Adjust height as needed */
+    background-color: black; /* Maintain theme */
+    overflow: hidden; /* Ensures no overflow issues */
+}
+
+.banner_Image {
+    width: auto; /* Occupy full container width */
+    max-width: 100%;
+    height: 100%; /* Occupy full container height */
+    object-fit: fill; /* Ensures the image scales properly */
+    border-radius: 10px; /* Optional: If you want rounded corners */
+    box-shadow: 0px 4px 10px rgba(255, 215, 0, 0.3); /* Golden shadow */
+}

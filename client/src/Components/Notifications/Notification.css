@@ -1,0 +1,48 @@
+/* Notification.css */
+.notification-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .notification-page h2 {
+    font-size: 24px;
+    color: #ff0000;
+    margin-bottom: 20px;
+  }
+  
+  .notification-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .notification-list li {
+    background: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .notification-list li:hover {
+    background: #ffe6e6;
+  }
+  
+  .notification-list strong {
+    color: #e60000;
+  }
+  
+  .notification-list em {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .no-notifications {
+    font-size: 18px;
+    color: gray;
+  }
+  

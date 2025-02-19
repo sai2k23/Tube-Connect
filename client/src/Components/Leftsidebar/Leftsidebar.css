@@ -1,0 +1,99 @@
+.container_leftSidebar {
+  background-color: #000000; /* Dark Blue */
+  width: 4.7rem;
+  height: calc(100vh - 3.55rem);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.icon_sidebar_div {
+  cursor: pointer;
+  color: #FFD700; /* Royal Gold */
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.icon_sidebar {
+  margin: auto;
+}
+
+.text_sidebar_icon {
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.85rem;
+  padding: 0.2rem;
+  color: #FFD700;
+}
+
+.icon_sidebar_div:hover,
+.icon_sidebar_div.active {
+  color: white;
+  background-color:  #222222;
+}
+
+/* Drawer Sidebar */
+.container_DrawaerLeftSidebar {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  z-index: 500;
+}
+
+.container2_DrawaerLeftSidebar {
+  height: calc(100vh - 3.6rem);
+  overflow-y: auto;
+  background-color:#111111; /* Dark Black */
+  width: 15rem;
+}
+
+.Drawer_leftsidebar,
+.libraryBtn_Drawerleftsidebar {
+  padding-top: 0.5rem;
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3); /* Gold Tint */
+}
+
+.icon_sidebar_div p {
+  display: flex;
+  margin: 0;
+}
+
+.subScriptions_lsdbar {
+  color: #FFFFFF; /* White */
+}
+
+.subScriptions_lsdbar h3 {
+  text-decoration: underline;
+  margin: 20px 10px;
+  color: #FFD700;
+}
+
+.chanel_lsdbar {
+  display: flex;
+  cursor: pointer;
+  background-color: #000000;
+  color: #FFD700;
+}
+
+.chanel_lsdbar:hover {
+  color: #FFD700;
+}
+
+.chanel_lsdbar p {
+  border: 1px solid #FFD700; /* Royal Blue Accent */
+  background-color: #222222;
+  padding: 0.5rem;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+.chanel_lsdbar div {
+  margin: auto;
+  width: 60%;
+}
+
+.container3_DrawaerLeftSidebar {
+  flex-grow: 1;
+  background-color:  rgba(0, 0, 0, 0.8);
+}
