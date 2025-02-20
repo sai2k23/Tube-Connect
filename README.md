@@ -95,5 +95,5 @@ This project is licensed under the **MIT License**.
 Feel free to fork and contribute! Open a PR with improvements and bug fixes.
 
 ## 📩 Contact
-For queries and collaboration, reach out at **your.email@example.com**
+For queries and collaboration, reach out at **saikrishnakolleti@gmail.com**
 
